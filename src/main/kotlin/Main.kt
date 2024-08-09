@@ -16,4 +16,9 @@ fun main() {
     println(json)
 
     val meuJogo = Jogo()
+    meuJogo.titulo = "Batman: Arkam Asylum (Game of the Year Edition)"
+    meuJogo.capa = "https:\\/\\/cdn.cloudflare.steamstatic.com\\/steam\\/apps\\/35140\\/capsule_sm_120.jpg?t=1634156149"
+
+    println(meuJogo)
+
 }
