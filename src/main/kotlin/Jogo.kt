@@ -1,6 +1,4 @@
-class Jogo {
-    val titulo = ""
-    val capa = ""
+class Jogo (val titulo:String, val capa:String) {
     val descricao = ""
 
     override fun toString(): String {
